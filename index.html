@@ -1,76 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<style>
+<style type="text/css">
+	body, html
+	{
+		height:100%;
+		margin:0;
+		font-size:16px;
+		font-family:"Lato", sans-serif;
+		font-weight: 400;
+		line-height: 1.8em;
+		color:#666;
 
-body 
-{ 
- 		background-image: url('poza_fundal_verde.png');
-}
+	}
 
-h1
-{
-		color: white; 
-		font-size: 8em;
-		margin: 0;
-		padding: 0;
-		text-align: center;
-		font-family: 'arial';
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translateX(-50%) translateY(-160%);
-		text-shadow:
-	    	 -1px -1px 0 #000,
-	   		 1px -1px 0 #000,
-	   		 -1px 1px 0 #000,
-	   		 1px 1px 0 #000;
-}
+	.img1
+	{
+		background-image: url('poza_fundal_verde.png');
+		min-height: 100%;
+	}
 
-h2
-{
-		color: white; 
-		font-size: 2em;
-		margin: 0;
-		padding: 0;
-		text-align: center;
-		font-family: 'arial';
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translateX(-50%) translateY(-230%);
-		text-shadow:
-		    -1px -1px 0 #000,
-		    1px -1px 0 #000,
-		     -1px 1px 0 #000,
-		     1px 1px 0 #000;
-}
+	.img2
+	{
+		background-image: url('poza_cutie_cereale.png');
+		min-height: 400px;
+	}
 
-*{
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
-}
+	.img3
+	{
+		background-image: url('poza_alergat.png');
+		min-height: 400px;
+	}
 
-
+	.img4
+	{
+		background-image: url('poza_liceu.png');
+		min-height: 100%;
+	}
 </style>
 
 <head>
-	<title> Calculator nutritional </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Calculator nutritional</title>
 </head>
 
 <body>
-	
-	<h1> C-Nutri </h1>
-	<h2> Calculatorul tau nutritional </h2>
+	<div class="img1"> 
+		<div class="ptext">
+			<span class="border">
+				C-Nutri
+			</span>
+		</div>
+	</div>
 
-	<nav>
-		<ul>
-			<li><a href="#"> Lista alimente </a></li>
-			<li><a href="#"> Altceva </a></li>
-			<li><a href="#"> Contact </a></li>
-		</ul>
-	</nav>
+	<section class="section section-light">
+		<h2>Sectiunea unu</h2>
+		<p>
+			TEST UNU TEST UNU TEST UNU
+		</p>
+	</section>
+
+	<div class="img2"> 
+		<div class="ptext">
+			<span class="border">
+				cEVA TExT 1
+			</span>
+		</div>
+	</div>
+
+	<section class="section section-dark">
+		<h2>Sectiunea doi</h2>
+		<p>
+			DOI DOI DOI DOI
+		</p>
+	</section>
+
+	<div class="img3"> 
+		<div class="ptext">
+			<span class="border">
+				alt Text 2
+			</span>
+		</div>
+	</div>
+
+	<section class="section section-dark">
+		<h2>Sectiunea trei </h2>
+		<p>
+			TRE TRE TRE
+		</p>
+	</section>
+
+	<div class="img4"> 
+		<div class="ptext">
+			<span class="border">
+				Asa de 3
+			</span>
+		</div>
+	</div>
+
+	<section class="section section-light">
+		<h2>Sectiunea PATRU</h2>
+		<p>
+			PATRU PATRU PATRU PATRU
+		</p>
+	</section>
+
+	<div class="img4"> 
+		<div class="ptext">
+			<span class="border">
+				De 4 de final
+			</span>
+		</div>
+	</div>
+
 
 </body>
 </html>
