@@ -40,7 +40,7 @@
 	.img3
 	{
 		background-image: url('poza_alergat.jpg');
-		min-height: 100%;
+		min-height: 500px;
 	}
 
 	.img4
@@ -48,13 +48,59 @@
 		background-image: url('poza_liceu.jpg');
 		min-height: 100%;
 	}
+
+	.section
+	{
+		text-align:center;
+		padding:50px 80px;
+	}
+
+	.section-light
+	{
+		background-color: #f4f4f4;
+		color:#666;
+	}
+
+	.section-dark
+	{
+		background-color: #282e34;
+		color:#ddd;
+	}
+
+	.ptext
+	{
+		position:absolute;
+		top:50%;
+		width:100%;
+		text-align:center;
+		color:#000;
+		font-size:27px;
+		letter-spacing:8px;
+		text-transform: uppercase;
+	}
+
+	.ptext .border
+	{
+		background-color: #111;
+		color:#fff;
+		padding:20px;
+	}
+
+	@media(max-width: 568px)
+	{
+		.img1, .img2, .img3, .img4
+		{
+			background-attachment: scroll;
+		}
+	}
+
 </style>
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Calculator nutritional</title>
+	<title> C-Nutri </title>
 </head>
 
 <body>
@@ -67,46 +113,46 @@
 	</div>
 
 	<section class="section section-light">
-		<h2>Sectiunea unu</h2>
+		<h2>Misiunea noastra</h2>
 		<p>
-			TEST UNU TEST UNU TEST UNU
+			Afla orice informatie nutritionala doresti despre alimentele de la ultima ta masa.
 		</p>
 	</section>
 
 	<div class="img2"> 
 		<div class="ptext">
 			<span class="border">
-				cEVA TExT 1
+				Calculator nutritonal
 			</span>
 		</div>
 	</div>
 
 	<section class="section section-dark">
-		<h2>Sectiunea doi</h2>
+		<h2>Pentru un stil de viata sanatos</h2>
 		<p>
-			DOI DOI DOI DOI
+			Mananci prea putin? Mananci prea mult? Sau poate ai greutatea ideala... Descopera folosind calculatorul nostru caloric.
 		</p>
 	</section>
 
 	<div class="img3"> 
 		<div class="ptext">
 			<span class="border">
-				alt Text 2
+				Calculator calorii
 			</span>
 		</div>
 	</div>
 
 	<section class="section section-dark">
-		<h2>Sectiunea trei </h2>
+		<h2> C-Nutri - Atestat </h2>
 		<p>
-			TRE TRE TRE
+			Liceul National "Gheorghe Titeica"; Profesor indrumator: Cretescu Rodica
 		</p>
 	</section>
 
 	<div class="img4"> 
 		<div class="ptext">
 			<span class="border">
-				Asa de 3
+				Proiect realizat de Radulescu Octavian
 			</span>
 		</div>
 	</div>
