@@ -29,7 +29,7 @@
 	.img1
 	{
 		background-image: url('poza_mancare.jpg');
-		min-height: 100%;
+		min-height: 90%;
 	}
 
 	.img2
@@ -95,7 +95,50 @@
 		}
 	}
 
-</style>
+	*
+	{
+		margin: 0;
+		padding: 0;
+		font-family: verdana;
+	}
+
+	nav
+	{
+		widows: 100%;
+		height: 80px;
+		background-color: #282e34;
+		line-height: 80px;
+		text-shadow: 2px 2px purple;
+	}
+
+	nav ul
+	{
+		float: right;
+		margin-right: 30px;
+	}
+
+	nav ul li
+	{
+		list-style-type: none;
+		display: inline-block;
+		transition: 0.8s;
+	}
+
+	nav ul li:hover
+	{
+		background-color: brown;
+	}
+
+	nav ul li a
+	{
+		text-decoration: none;
+		color: #fff;
+		padding: 30px;
+		text-transform: uppercase;
+	}
+
+
+</style> 
 
 <head>
 	<meta charset="UTF-8">
@@ -105,6 +148,17 @@
 </head>
 
 <body>
+
+	<div if="main">
+		<nav>
+			<ul>
+				<li><a href="#">Calculator nutritional</a></li>
+				<li><a href="#">Calculator caloric</a></li>
+				<li><a href="#">Despre C-Nutri</a></li>
+			</ul>
+		</nav>
+	</div>
+
 	<div class="img1"> 
 		<div class="ptext">
 			<span class="border">
